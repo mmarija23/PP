@@ -15,9 +15,16 @@ console.log(sum);
 //100: i=100,100<=100(true), sum =sum+1(sum=4950+100),  sum=5050, i++(101)
 //101: i=101,3101<=100(false), end
 
-varsum = 0;
+var sum = 0;
 for (vari = 1; i <= 100; i++) {
     if (sum === 0) {
         console.log
     }
+}
+//////
+for (var i = 0; i < 4; i++) {
+    console.log("*******---------------");
+}
+for (var j = 0; j < 4; j++) {
+    console.log("----------------");
 }
