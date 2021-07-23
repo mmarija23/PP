@@ -12,3 +12,9 @@ while (true) {
     count = count + 1;
     console.log(count);
 }
+/////
+var counter = 1;
+while (counter < 4) {
+    console.log(counter);
+    counter++;
+}
