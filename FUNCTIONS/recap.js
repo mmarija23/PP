@@ -5,7 +5,7 @@ function vacationStartDate(day, month) {
 }
 
 var startDate = vacationStartDate(5, 7);
-console.log(startDate);
+console.log(startDate); //5.7
 
 ///// 
 var year = 2021;
@@ -17,7 +17,7 @@ function vacationStartDate(day, month) {
 }
 
 var startDate = vacationStartDate(5, 7);
-console.log(startDate);
+console.log(startDate); //5.7.2021.
 ///
 var year = 2021;
 
@@ -29,7 +29,7 @@ function vacationStartDate(day, month) {
 }
 
 var startDate = vacationStartDate(5, 7);
-console.log(startDate);
+console.log(startDate); //5.7.2022.
 
 //
 var year = 2021;
@@ -42,7 +42,7 @@ function vacationStartDate(day, month) {
 }
 
 var startDate = vacationStartDate(5, 7);
-console.log(startDate);
+console.log(startDate); //5.8.2021.
 
 //
 var year = 2021;
@@ -52,7 +52,7 @@ function vacationStartDate(day) {
     date = day + '.' + month + '.' + year + '.';
     return date;
 }
-var month = 8; //ako ovde stavimo opet dobijamo isto, ali ako prebacimo ispod varstartdate onda dobijemo undefined zbog hojstinga
+var month = 8; //ako ovde stavimo opet dobijamo isto, ali ako prebacimo ispod var startdate onda dobijemo undefined zbog hojstinga
 var startDate = vacationStartDate(5, 7);
 //var month = 8;prvo js deklarise var month; a posle joj dodeli vrednost.
 console.log(startDate);
