@@ -175,6 +175,18 @@ function appearancesOfLetter(string, letter) {
 }
 var count = appearancesOfLetter('banana', 'b');
 console.log(count);
+
+///
+function appearancesOfLetter(string) {
+    var count = 0;
+    for (var i = 0; i < string.length; i++) {
+        if (string[i] === 'a' || string[i] === 'A') {
+            count++;
+        }
+    }
+    return count;
+}
+console.log(appearancesOfLetter('banAnamAn'));
 /*11. Write a program that concatenates a given string given number of times.For example,
  if“ abc” and 4 are given values, the program prints out abcabcabcabc.*/
 function concatenatesString(string, num) {
