@@ -1,8 +1,8 @@
 var fruit = 'apple';
 switch (fruit) {
-    case 'banana'
-    console.log('yellow');
-    break;
+    case 'banana':
+        console.log('yellow');
+        break;
 
 }
 /*1. Write a program that shows text representation of a day in a week for a number input from
@@ -358,8 +358,34 @@ console.log(result);
 
 /*8. Write a program that takes as input two numbers and a string denoting the operation (“+”, “-
 ”, “*”, “/”) and prints out the appropriate result. Watch out for division by zero!*/
-var a = 2;
-var b = 4;
-var c = "+";
-var result = a + " " + b;
-switch
+var num1 = 1;
+var num2 = 0;
+var operator = '/';
+var result = '';
+
+switch (operator) {
+    case '+':
+        result = num1 + num2;
+        break;
+
+    case '-':
+        result = num1 - num2;
+        break;
+
+    case '*':
+        result = num1 * num2;
+        break;
+
+    case '/':
+        if (num2 === 0) {
+            result = 'Division with 0 not valid';
+        } else {
+            result = num1 / num2;
+        }
+        break;
+
+    default:
+        result = 'Operation is not valid.';
+
+}
+console.log(result);
