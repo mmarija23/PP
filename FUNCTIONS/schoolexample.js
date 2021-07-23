@@ -38,7 +38,7 @@ console.log(result); //stampa [Function (anonymous)]
     console.log(result);
     console.log('Hi');
 
-})();
+})(); //66 Hi
 
 ///
 console.log(x);
