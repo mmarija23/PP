@@ -198,8 +198,7 @@ function yearsUntilRetirement(nowDate, gender, dateOfBirth) {
     }
     if (gender === "male" && personAge < 65) {
         yearsLeft = 65 - personAge;
-        message = "Years to retire " + yearsLeft;
-        return message;
+        return "Years to retire " + yearsLeft;
     } else {
         return retired;
     }
