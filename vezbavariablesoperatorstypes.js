@@ -141,7 +141,7 @@ p      q        p && q     p || q
 true true          T          T
 true false         F          T
 false true         F          T
-false false        F          T*/
+false false        F          F*/
 
 
 var p = true;
