@@ -140,7 +140,6 @@ isPerfectNumber(23);
 'The quick brown fox', 'fox' ->"'fox' was found 1 times"
 'aa bb cc dd aa', 'aa' -> "'aa' was found 2 times"*/
 function findWord(string, word) {
-    var result = word + ' was found ' + count2 + ' times.';
     var count = 0;
     var count2 = 0;
     for (i = 0; i < string.length; i++) {
@@ -167,7 +166,7 @@ function hideEmailAddress(mail) {
     var monkey;
     var first = "";
     var rest = "";
-    var counter;
+
     for (var i = 0; i < mail.length; i++) {
         if (i < 3) {
             first += mail[i];
