@@ -259,7 +259,7 @@ function greatestCommonDivisior(num1, num2) {
         if (num1 % i === 0 && num2 % i === 0) {
             return i;
         }
-    } //razjasniti
+    }
 
 }
 console.log(greatestCommonDivisior(192, 42));
