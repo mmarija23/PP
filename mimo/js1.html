@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Novi Primer</h1>
+    <p>Ovaj tekst ne treba da bude prikazan</p>
+    <p>Ovaj tekst treba da se prikaze u pop-up ekranu i da nakon oga promeni boju u crveno</p>
+    <input type="button" value="Prikazi tekst iz drugog p elementa" onclick="prikaziIOboji()">
+    <script>
+        function prikaziIOboji() {
+            //var tekstZaPrikaz =
+            // document.getElementsByTagName("p")[1].innerHTML;
+            //  alert(tekstZaPrikaz);
+            // document.getElementsByTagName("p")[1].style.color = "red";
+            //******ili ovako na drugi nacin krace*******//
+            var tekstZaPrikaz =
+                document.getElementsByTagName("p")[1];
+            alert(tekstZaPrikaz.innerHTML);
+            tekstZaPrikaz.style.color = "red";
+        }
+    </script>
+</body>
+
+</html>
