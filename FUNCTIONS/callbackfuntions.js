@@ -74,8 +74,18 @@ Input: [‘apple’, ‘tea’, ‘amazing’, ‘morning’, ‘JavaScript’]
 Output: [‘morning’, ‘apple’, ‘tea’, ‘JavaScript’, ‘amazing’]*/
 /*10. Write a function that prints out the date of the next day.
 Output: 25. 10. 2018.*/
+function nextDay(day, month, year) {
+    var res = day + 1 + "." + month + "." + year + ".";
+    return res;
+}
+console.log(nextDay(24, 10, 2018));
 /*11. Write a function that prints out the date of the previous day.
 Output: 23. 10. 2018.*/
+function previousDay(day, month, year) {
+    var res = day - 1 + "." + month + "." + year + ".";
+    return res;
+}
+console.log(previousDay(24, 10, 2018));
 /*12. Write a function that prints out an array of the numbers aligned from the right side.
 Input: [78, 111, 4, 4321]
 Output:
